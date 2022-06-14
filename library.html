@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="library.css">
+</head>
+<body>
+    <div class="container">
+        <h3 class="title">Library Management Tool</h3>
+        <form id="formBook">
+    
+            <label for="txBookName">Book Name:</label>
+            <input type="text" name="" id="bookName">
+            <label for="txtBookAuthor">Book Author:</label>
+            <input type="text" name="" id="bookAuthor">
+            <label for="txtBookISBN">Book ISBN:</label>
+            <input type="text" name="" id="bookISBN">
+            <input type="submit" value="Add a Book" id="addBook">
+            
+        </form>
+    
+        <span>
+            <table id="bookList">
+                <tr>
+                    <th>Book Name</th>
+                    <th>Book Author</th>
+                    <th>Book ISBN</th>
+                    <th></th>
+                </tr>
+                <!--JS codes will be added here-->
+            </table>
+        </span>
+        <h5 id="result">Nothing added yet!</h5>
+    </div>
+    <script src="library.js"></script>
+</body>
+</html>
